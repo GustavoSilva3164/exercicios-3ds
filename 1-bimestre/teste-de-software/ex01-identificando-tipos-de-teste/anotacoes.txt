@@ -1,0 +1,27 @@
+tema de hoje
+- introdução a testes, tdd e tipos de testes
+- configurando jest no projeto
+
+ ~> para que serve os testes?
+- encontrar erros (bugs)
+- garantir que novas atualizações não quebrem, oque já funciona
+- aumentar a qualidade e confiabilidade do sistema
+
+~> TESTE MANUAIS
+- feitos por pessoas
+- abrir o sistema e clicar
+- demoram mais
+- podem falhar por distração
+
+~> TESTES AUTOMATIZADOS
+- escritos em codigos
+- executado automaticamente
+- são rapidos
+- podem ser repetidos quantas vezes quiser
+
+1 Testar uma função isolada é qual tipo de teste?
+teste unitario
+2 Testar a API junto com o banco é qual tipo?
+teste de integração
+3 Qual a principal ideia do TDD?
+escrever o teste antes do codigo principal/produção
