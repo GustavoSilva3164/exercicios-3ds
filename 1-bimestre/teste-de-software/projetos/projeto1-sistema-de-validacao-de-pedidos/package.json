@@ -1,0 +1,19 @@
+{
+  "name": "projeto1-sistema-de-validacao-de-pedidos",
+  "version": "1.0.0",
+  "description": "Você foi contratado para desenvolver parte de um sistema simples de pedidos para uma loja online.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

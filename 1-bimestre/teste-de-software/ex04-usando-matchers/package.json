@@ -1,8 +1,11 @@
 {
-  "name": "ex04-utilizando-matchers",
+  "name": "ex04-usando-matchers",
   "version": "1.0.0",
   "description": "Crie testes que validem:",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "jest"
   },
