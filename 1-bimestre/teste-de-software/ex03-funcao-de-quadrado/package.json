@@ -1,0 +1,19 @@
+{
+  "name": "ex03-funcao-de-quadrado",
+  "version": "1.0.0",
+  "description": "1. Crie primeiro o **teste** para uma função `calcularQuadrado` 2. O teste deve validar:     - `calcularQuadrado(5)` retorna `25` 3. Depois crie a função em `index.js`",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
