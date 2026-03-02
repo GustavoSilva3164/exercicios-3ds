@@ -37,3 +37,25 @@ jobs:
       - uses: actions/checkout@v3
       - run: npm install
       - run: npm test
+
+  ex05-criando-um-service-de-taxa:
+    name: ex05-criando-um-service-de-taxa
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 1-bimestre/teste-de-software/ex05-criando-um-service-de-taxa
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: npm test
+
+  ex06-criar-controller-para-desconto:
+    name: ex06-criar-controller-para-desconto
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 1-bimestre/teste-de-software/ex06-criar-controller-para-desconto
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: npm test
