@@ -1,0 +1,19 @@
+{
+  "name": "ex06-criar-controller-para-desconto",
+  "version": "1.0.0",
+  "description": "Você deve:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
