@@ -1,0 +1,16 @@
+{
+  "name": "ex05-criando-um-service-de-taxa",
+  "version": "1.0.0",
+  "description": "1. Crie um service chamado `taxaService` 2. Crie uma função `calcularTaxa(valor)` 3. Se o valor for maior que 500 → taxa de 5% 4. Caso contrário → sem taxa 5. Crie testes usando `describe` e `beforeEach`",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
