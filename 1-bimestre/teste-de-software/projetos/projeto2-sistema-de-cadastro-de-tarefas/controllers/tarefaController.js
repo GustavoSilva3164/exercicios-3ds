@@ -1,6 +1,7 @@
 const {
   cadastrarTarefa,
-  totalTarefas
+  totalTarefas,
+  listarTarefas
 } = require('../services/tarefaService')
 
 function criar(descricao) {
@@ -17,7 +18,12 @@ function total() {
   return { total: totalTarefas() }
 }
 
+function listar() {
+  return { tarefas: listarTarefas() }
+}
+
 module.exports = {
   criar,
-  total
+  total,
+  listar
 }

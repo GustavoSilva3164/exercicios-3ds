@@ -1,6 +1,7 @@
 const {
   salvarTarefa,
-  contarTarefas
+  contarTarefas,
+  obterTarefas
 } = require('../database/tarefaDatabase')
 
 function cadastrarTarefa(descricao) {
@@ -14,7 +15,12 @@ function totalTarefas() {
   return contarTarefas()
 }
 
+function listarTarefas() {
+  return obterTarefas()
+}
+
 module.exports = {
   cadastrarTarefa,
-  totalTarefas
+  totalTarefas,
+  listarTarefas
 }

@@ -11,8 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Você foi contratado para desenvolver parte de um sistema simples de **gerenciamento de tarefas**. Esse sistema permitirá registrar tarefas e consultar quantas tarefas existem.",
   "devDependencies": {
     "jest": "^30.3.0"
-  }
+  },
+  "type": "commonjs"
 }

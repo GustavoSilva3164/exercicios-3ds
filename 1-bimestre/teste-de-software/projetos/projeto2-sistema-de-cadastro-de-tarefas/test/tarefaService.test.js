@@ -1,6 +1,7 @@
 const {
   cadastrarTarefa,
-  totalTarefas
+  totalTarefas,
+  listarTarefas
 } = require('../services/tarefaService')
 
 const { resetarBanco } = require('../database/tarefaDatabase')
@@ -30,6 +31,13 @@ describe('Sistema de Tarefas', () => {
 
   test('Banco deve iniciar vazio', () => {
     expect(totalTarefas()).toBe(0)
+  })
+
+  test('listarTarefas deve retornar tarefas cadastradas', () => {
+    cadastrarTarefa('Estudar Node')
+
+    const lista = listarTarefas()
+    expect(lista).toContain('Estudar Node')
   })
 
 })
