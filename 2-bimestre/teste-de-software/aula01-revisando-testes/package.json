@@ -1,0 +1,16 @@
+{
+  "name": "aula01-revisando-testes",
+  "version": "1.0.0",
+  "description": "- Revisar fundamentos de testes com Jest. - Aprender a escrever testes **claros, organizados e profissionais**. - Utilizar `describe` para estruturar testes. - Aplicar padrões de nomenclatura. - Entender a separação entre:     - testes de aprendizado     - testes de correção (GitHub Actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
