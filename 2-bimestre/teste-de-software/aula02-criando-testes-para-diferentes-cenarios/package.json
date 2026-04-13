@@ -1,0 +1,16 @@
+{
+  "name": "aula02-criando-testes-para-diferentes-cenarios",
+  "version": "1.0.0",
+  "description": "- Entender diferentes cenários de teste. - Criar testes para:     - Sucesso     - Erro     - Casos limite - Aumentar cobertura de testes. - Pensar como QA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
